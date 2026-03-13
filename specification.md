@@ -31,7 +31,7 @@
 | **Adatforrások**  | REST API + CSV fájl |
 | **Feldolgozási mód** | Batch  |
 | **Landing zone**  | MinIO|
-| **Adatmodell típusa** | pl. Csillag séma – 1 ténytábla + 2 dimenziótábla |
+| **Adatmodell típusa** |Csillag séma – 1 ténytábla(fact_player_activity) + 2 dimenziótábla(dim_games + dim_time) |
 | **Adattárház / adatplatform** |PostgreSQL|
 | **Transzformáció** | dbt, Spark SQL |
 | **Orchestration eszköz** |Apache Airflow |
